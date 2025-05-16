@@ -6,15 +6,12 @@
 /*   By: mgolubev <mgolubev@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2025/05/14 20:27:06 by mgolubev      #+#    #+#                 */
-/*   Updated: 2025/05/16 22:41:51 by mgolubev      ########   odam.nl         */
+/*   Updated: 2025/05/16 22:43:02 by mgolubev      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Soup.hpp"
-
-#include <coroutine>
 #include <iostream>
-#include <optional>
 
 Task<int> sum(int a, int b)
 {
