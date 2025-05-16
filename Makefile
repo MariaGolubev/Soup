@@ -1,7 +1,7 @@
 NAME = Soup
 
 CC		= c++
-CFLAGS	= -Wall -Wextra -Werror -std=c++20 -MMD -g -fsanitize=address,undefined,leak
+CFLAGS	= -Wall -Wextra -Werror -std=c++20 -pthread -MMD -g -fsanitize=address,undefined,leak
 OBJDIR	= obj
 SRCDIR	= src
 INCLUDE	= -Iinclude
